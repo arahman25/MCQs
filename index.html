@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Quiz Page</h1>
+		<div id="team-selection">
+			<label for="team-dropdown">Select Team:</label>
+			<select id="team-dropdown">
+				<option value="dash">Dash</option>
+				<option value="hanafy">Hanafy</option>
+				<option value="moustafa">Moustafa</option>
+				<option value="essawy">Essawy</option>
+			</select>
+			<button id="start-btn">Start Quiz</button>
+		</div>
+		<div id="quiz">
+			<h2>Question <span id="question-number"></span></h2>
+			<p id="question"></p>
+			<div id="choices"></div>
+			<button id="submit-btn">Submit</button>
+			<div id="timer">10</div>
+		</div>
+		<div id="results">
+			<h2>Results</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Team</th>
+						<th>Score</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Dash</td>
+						<td id="dash-score"></td>
+					</tr>
+					<tr>
+						<td>Hanafy</td>
+						<td id="hanafy-score"></td>
+					</tr>
+					<tr>
+						<td>Moustafa</td>
+						<td id="moustafa-score"></td>
+					</tr>
+					<tr>
+						<td>Essawy</td>
+						<td id="essawy-score"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

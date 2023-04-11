@@ -1,0 +1,128 @@
+body {
+background-color: #f3f3f3;
+font-family: Arial, sans-serif;
+}
+
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+
+h1 {
+text-align: center;
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+#team-selection {
+text-align: center;
+margin-bottom: 20px;
+}
+
+label {
+font-size: 18px;
+margin-right: 10px;
+}
+
+select {
+font-size: 18px;
+padding: 5px;
+}
+
+#start-btn {
+font-size: 18px;
+padding: 5px 10px;
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+#start-btn:hover {
+background-color: #3e8e41;
+}
+
+#quiz {
+display: none;
+margin-bottom: 20px;
+}
+
+h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+#question-number {
+font-weight: bold;
+}
+
+#question {
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+#choices {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+button {
+font-size: 18px;
+padding: 5px 10px;
+background-color: #fff;
+color: #000;
+border: 2px solid #4CAF50;
+border-radius: 4px;
+margin: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+background-color: #4CAF50;
+color: #fff;
+}
+
+#submit-btn {
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 4px;
+}
+
+#submit-btn:hover {
+background-color: #3e8e41;
+}
+
+#timer {
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+margin-bottom: 20px;
+}
+
+#results {
+display: none;
+margin-bottom: 20px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th,
+td {
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+th {
+background-color: #4CAF50;
+color: #fff;
+}
