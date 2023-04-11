@@ -23,6 +23,7 @@ margin-bottom: 20px;
 label {
 font-size: 18px;
 margin-right: 10px;
+font-weight: bold;
 }
 
 select {
